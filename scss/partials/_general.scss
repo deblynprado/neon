@@ -1,1 +1,4 @@
-.neon-app { background-color: rgba( $main-color, 0.9 ); }
+.neon-app {
+	background-color: rgba( $main-color, 0.9 );
+	color: $default-text;
+}

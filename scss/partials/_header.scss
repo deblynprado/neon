@@ -1,8 +1,15 @@
 header {
 	.logo {
 		bottom: 4px;
-		left: 3%;
+		left: 20%;
 		position: relative;
+	}
+
+	.balance {
+		font-family: $averta;
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 14px;
 	}
 
 	p {
@@ -11,18 +18,30 @@ header {
 	}
 
 	.year {
-		margin-bottom: 20px;
+		display: inline-block;
+		font-family: averta;
+		font-weight: bold;
+		font-size: 16px;
+		margin-top: 38px;
+		width: 100%;
 		&:after {
-			background-color: #85FF42;
+			background: #2EBC57;
 			content: "";
 			display: inline-block;
 			height: 1px;
 			position: absolute;
-			right: 43%;
-			top: 30px;
-			width: 14%;
+			right: 33%;
+			top: 65px;
+			width: 33%;
 		}
 	}
 
-	.welcome { font-weight: 600; }
+	.welcome {
+		display: inline-block;
+		font-size: 20px;
+		font-family: averta;
+		font-weight: bold;
+		margin-top: 8px;
+		width: 100%;
+	}
 }
