@@ -1,0 +1,28 @@
+header {
+	.logo {
+		bottom: 4px;
+		left: 3%;
+		position: relative;
+	}
+
+	p {
+		font-size: 20px;
+		position: relative;
+	}
+
+	.year {
+		margin-bottom: 20px;
+		&:after {
+			background-color: #85FF42;
+			content: "";
+			display: inline-block;
+			height: 1px;
+			position: absolute;
+			right: 43%;
+			top: 30px;
+			width: 14%;
+		}
+	}
+
+	.welcome { font-weight: 600; }
+}
