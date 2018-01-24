@@ -1,9 +1,10 @@
 .icon {
 	background-position: center;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-size: contain;
 	display: inline-block;
 	height: 30px;
 	width: 30px;
 	&.icon-category { background-image: url('../images/icon-categoria.png'); }
+	&.icon-delete { background-image: url('../images/icon-delete.png'); }
 }
