@@ -27,6 +27,7 @@ header {
 		&:after {
 			background-image: url('../images/divider.png');
 			background-repeat: no-repeat;
+			background-size: contain;
 			content: "";
 			display: inline-block;
 			height: 8px;
@@ -46,4 +47,21 @@ header {
 		margin-top: 8px;
 		width: 100%;
 	}
+}
+
+@media( max-width: 736px ) {
+	header {
+		.balance {
+			font-size: 20px;
+			margin-top: 0;
+		}
+
+		.year {
+			margin-top: 15px;
+			&:after {
+				right: 5%;
+				top: 42px;
+			}
+		}
+	}	
 }
