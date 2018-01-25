@@ -1,0 +1,74 @@
+// Slider list Items
+.slider-items {
+	.item {
+		background-color: #006184;
+		display: inline;
+		float: left;
+		height: 500px;
+		width: 25%;
+		&:first-child,
+		&:last-child {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&:first-child {
+			@include border-radius( 0 10px 10px 0 );
+			.icon-calendar {
+				margin-right: auto;
+				right: 30px;
+			}
+		}
+		
+		&:last-child {
+			@include border-radius( 10px 0 0 10px );
+			.icon-calendar {
+				margin-left: auto;
+				left: 30px;
+			}	
+		}
+
+		&.active {
+			background-color: $sec-color;
+			margin: 0 7%;
+			width: 500px;
+			@include border-radius( 10px );
+		}
+
+		.icon-calendar { opacity: 0.2; }
+	}
+
+	.item-child-list {
+		li {
+			border-bottom: 1px solid rgba( 255, 255, 255, 0.2 );
+			font-family: $averta;
+			font-weight: normal;			
+			font-size: 16px;
+			height: 70px;
+			padding-top: 6px;
+			&:last-child {
+				border-bottom: none;
+				margin-bottom: 50px;
+			}
+			.icon-delete {
+				float: right;
+				left: 5px;
+				top: 20px;
+			}
+		}
+
+		.description {
+			height: 42px;
+			margin-left: 10px;
+		}
+
+		.value {
+			bottom: 4px;
+			font-size: 18px;
+			font-weight: bold;
+			position: relative;
+			&.incoming { color: $incoming-color; }
+		}
+	}
+}
