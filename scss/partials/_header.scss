@@ -25,14 +25,16 @@ header {
 		margin-top: 38px;
 		width: 100%;
 		&:after {
-			background: #2EBC57;
+			background-image: url('../images/divider.png');
+			background-repeat: no-repeat;
 			content: "";
 			display: inline-block;
-			height: 1px;
+			height: 8px;
 			position: absolute;
 			right: 33%;
-			top: 65px;
-			width: 33%;
+			top: 63px;
+			max-width: 356px;
+			width: 100%;
 		}
 	}
 
