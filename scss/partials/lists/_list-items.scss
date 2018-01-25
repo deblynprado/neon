@@ -72,3 +72,18 @@
 		}
 	}
 }
+
+@media( max-width: 736px ) {
+	.slider-items {
+		.item {
+			&:first-child { display: none; }
+			
+			&:last-child { width: 3%; }
+
+			&.active {
+				margin: 0 3% 0 1%;
+				width: 93%;
+			}
+		}
+	}
+}

@@ -5,3 +5,9 @@
 	color: $default-text;
 	overflow-x: hidden;
 }
+
+@media( max-width: 736px ) {
+	.neon-slider {
+		.mobile-grid-layout { padding-right: 0 !important; }
+	}
+}
