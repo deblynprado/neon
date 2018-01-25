@@ -1,0 +1,18 @@
+.slider-controls {
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	.slider-control {
+		border: 1px solid $sec-color;
+		background-color: transparent;
+		display: inline;
+		float: left;
+		height: 18px;
+		margin: 0 1%;
+		opacity: 0.5;
+		width: 18px;
+		@include border-radius( 3px );
+		&:first-child { margin-left: 15%; }
+		&:nth-child(2) { opacity: 1; }
+	}
+}
