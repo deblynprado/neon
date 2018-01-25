@@ -30,8 +30,8 @@
   </header>
 
   <main role="main">
-    <div class="grid-container fluid">
-      <section class="neon-slider">
+    <section class="neon-slider">
+      <div class="grid-container fluid">
         <ul class="slider-items no-bullet" role="list" aria-describedby="label-item-description">
 
           <li class="item" role="list-item" aria-level="1">
@@ -174,8 +174,24 @@
         <p id="label-item-description" class="show-for-sr">
           Slider com múltiplos itens. Cada item ativo apresenta informações a respeito de créditos ou débitos na conta.
         </p>
-      </section>
-    </div>
+
+        <div class="slider-controls">
+          <div class="grid-x grid-margin-x">
+            <div class="medium-4 medium-offset-5 cell">
+              <a href="#" class="slider-control" role="list-item">
+                <span id="slider-control-1" class="show-for-sr">Botão que chama o item anterior do Slider</span>
+              </a>
+              <a href="#" class="slider-control" role="list-item">
+                <span id="slider-control-2" class="show-for-sr">Botão o item do Slider que está ativo</span>
+              </a>
+              <a href="#" class="slider-control" role="list-item">
+                <span id="slider-control-3" class="show-for-sr">Botão que chama o próximo item do Slider</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
