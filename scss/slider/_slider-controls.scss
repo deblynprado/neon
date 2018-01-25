@@ -16,3 +16,15 @@
 		&:nth-child(2) { opacity: 1; }
 	}
 }
+
+@media( max-width: 736px ) {
+	.slider-controls {
+		margin-bottom: 15px; 
+		.slider-control {
+			margin: 0 3%;
+			&:first-child { margin-left: 0; }
+
+			&:last-child { margin-right: 0; }
+		}
+	}
+}
