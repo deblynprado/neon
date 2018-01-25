@@ -1,4 +1,6 @@
 .neon-app {
-	background-color: rgba( $main-color, 0.9 );
+	background-image: url('../images/body-bg.png');
+	background-repeat: repeat;
+	background-position: top-left;
 	color: $default-text;
 }
