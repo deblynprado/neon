@@ -34,6 +34,7 @@
 			background-color: $sec-color;
 			margin: 0 7%;
 			width: 36% !important;
+			@include transition(background-color .5s .5s, color 1s);
 			@include border-radius( 10px );
 		}
 
