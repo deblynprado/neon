@@ -2,18 +2,19 @@
 	display: inline-block;
 	width: 100%;
 	height: 20px;
+	padding-top: 20px;
 	.slider-control {
 		border: 1px solid $sec-color;
 		background-color: transparent;
 		display: inline;
 		float: left;
 		height: 18px;
-		margin: 0 1%;
+		margin: 0 0.5%;
 		opacity: 0.5;
 		width: 18px;
 		@include border-radius( 3px );
-		&:first-child { margin-left: 15%; }
-		&:nth-child(2) { opacity: 1; }
+		&:first-child { margin-left: 20%; }
+		&.swiper-pagination-bullet-active { opacity: 1; }
 	}
 }
 
