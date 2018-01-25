@@ -3,8 +3,23 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: inline-block;
-	height: 30px;
-	width: 30px;
-	&.icon-category { background-image: url('../images/icon-categoria.png'); }
-	&.icon-delete { background-image: url('../images/icon-delete.png'); }
+	position: relative;
+	top: 10px;
+	&.icon-category {
+		background-image: url('../images/icon-categoria.png');
+		height: 30px;
+		margin-left: 4px;
+		margin-top: 2px;
+		width: 30px;
+	}
+	&.icon-delete {
+		background-image: url('../images/icon-delete.png');
+		height: 17px;
+		width: 21px;
+	}
+	&.icon-calendar {
+		background-image: url('../images/icon-calendar.png');
+		height: 200px;
+		width: 200px;
+	}
 }
