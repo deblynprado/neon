@@ -5,7 +5,7 @@
 		display: inline;
 		float: left;
 		height: 500px;
-		width: 25%;
+		width: 25% !important;
 		&:first-child,
 		&:last-child {
 			display: flex;
@@ -29,10 +29,11 @@
 			}	
 		}
 
-		&.active {
+		&.active,
+		&.swiper-slide-active {
 			background-color: $sec-color;
 			margin: 0 7%;
-			width: 36%;
+			width: 36% !important;
 			@include border-radius( 10px );
 		}
 
@@ -47,6 +48,7 @@
 			font-size: 16px;
 			height: 70px;
 			padding-top: 6px;
+			margin-left: 3%;
 			&:last-child {
 				border-bottom: none;
 				margin-bottom: 50px;
@@ -81,10 +83,12 @@
 			
 			&:last-child { width: 3%; }
 
-			&.active {
+			&.active,
+			&.swiper-slide-active {
 				margin: 0 3% 0 1%;
 				overflow-x: scroll;
-				width: 93%;
+				overflow-y: none;
+				width: 93% !important;
 			}
 
 			.category-text {
@@ -98,6 +102,7 @@
 			li {
 				height: auto;
 				margin-top: 10px;
+				margin-left: 0;
 				.icon-delete {
 					left: -5px;
 					top: -30px;

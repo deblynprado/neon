@@ -6,6 +6,11 @@
 	overflow-x: hidden;
 }
 
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+
 @media( max-width: 736px ) {
 	.neon-slider {
 		.mobile-grid-layout { padding-right: 0 !important; }

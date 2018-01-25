@@ -5,6 +5,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neon</title>
+  <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body class="neon-app">
@@ -34,190 +35,224 @@
     <section class="neon-slider">
       <div class="grid-container fluid mobile-grid-layout">
         <ul class="slider-items no-bullet" role="list" aria-describedby="label-item-description">
-
-          <li class="item" role="list-item" aria-level="1">
-            <span class="icon icon-calendar"></span>
-          </li>
-          <!-- /.item -->
-
-          <li class="item active" role="list-item" aria-level="1">
-
-            <ul class="item-child-list no-bullet" role="list">
-              <li role="list-item" aria-level="2">
-                <div class="grid-x grid-padding-x">
-                  <div class="show-for-small-only small-12 cell category-text">
-                    categoria
-                  </div>
-                  <div class="hide-for-small-only medium-1 cell">
-                    <span class="icon icon-category"></span>
-                  </div>
-                  <div class="small-10 medium-9 cell">
-                    <p class="description">
-                      Sua compra aparece aqui <br>
-                      <span class="value">R$ 1.000.000,00</span>
-                    </p>
-                  </div>
-                  <div class="small-2 medium-2 cell">
-                    <a href="#" class="icon icon-delete">
-                      <span class="show-for-sr">Delete</span>
-                    </a>
-                  </div>
-                </div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <li class="item swiper-slide" role="list-item" aria-level="1">
+                <span class="icon icon-calendar"></span>
               </li>
-              <!-- /.list-item -->
+              <!-- /.item -->
 
-              <li role="list-item" aria-level="2">
-                <div class="grid-x grid-padding-x">
-                  <div class="show-for-small-only small-12 cell category-text">
-                    categoria
-                  </div>
-                  <div class="hide-for-small-only medium-1 cell">
-                    <span class="icon icon-category"></span>
-                  </div>
-                  <div class="small-10 medium-9 cell">
-                    <p class="description">
-                      Receba pagamentos <br>
-                      <span class="value incoming">R$ +2.000.000,00</span>
-                    </p>
-                  </div>
-                  <div class="small-2 medium-2 cell">
-                    <a href="#" class="icon icon-delete">
-                      <span class="show-for-sr">Delete</span>
-                    </a>
-                  </div>
-                </div>
+              <li class="item swiper-slide" role="list-item" aria-level="1">
+
+                <ul class="item-child-list no-bullet" role="list">
+                  <li role="list-item" aria-level="2">
+                    <div class="grid-x">
+                      <div class="show-for-small-only small-12 cell category-text">
+                        categoria
+                      </div>
+                      <div class="hide-for-small-only medium-1 cell">
+                        <span class="icon icon-category"></span>
+                      </div>
+                      <div class="small-10 medium-9 cell">
+                        <p class="description">
+                          Sua compra aparece aqui <br>
+                          <span class="value">R$ 1.000.000,00</span>
+                        </p>
+                      </div>
+                      <div class="small-2 medium-1 cell">
+                        <a href="#" class="icon icon-delete">
+                          <span class="show-for-sr">Delete</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /.list-item -->
+
+                  <li role="list-item" aria-level="2">
+                    <div class="grid-x">
+                      <div class="show-for-small-only small-12 cell category-text">
+                        categoria
+                      </div>
+                      <div class="hide-for-small-only medium-1 cell">
+                        <span class="icon icon-category"></span>
+                      </div>
+                      <div class="small-10 medium-9 cell">
+                        <p class="description">
+                          Receba pagamentos <br>
+                          <span class="value incoming">R$ +2.000.000,00</span>
+                        </p>
+                      </div>
+                      <div class="small-2 medium-1 cell">
+                        <a href="#" class="icon icon-delete">
+                          <span class="show-for-sr">Delete</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /.list-item -->
+
+                  <li role="list-item" aria-level="2">
+                    <div class="grid-x">
+                      <div class="show-for-small-only small-12 cell category-text">
+                        categoria
+                      </div>
+                      <div class="hide-for-small-only medium-1 cell">
+                        <span class="icon icon-category"></span>
+                      </div>
+                      <div class="small-10 medium-9 cell">
+                        <p class="description">
+                          Tarifa <br>
+                          <span class="value">R$ -0,01</span>
+                        </p>
+                      </div>
+                      <div class="small-2 medium-1 cell">
+                        <a href="#" class="icon icon-delete">
+                          <span class="show-for-sr">Delete</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /.list-item -->
+
+                  <li role="list-item" aria-level="2">
+                    <div class="grid-x">
+                      <div class="show-for-small-only small-12 cell category-text">
+                        categoria
+                      </div>
+                      <div class="hide-for-small-only medium-1 cell">
+                        <span class="icon icon-category"></span>
+                      </div>
+                      <div class="small-10 medium-9 cell">
+                        <p class="description">
+                          Tarifa <br>
+                          <span class="value">R$ -0,01</span>
+                        </p>
+                      </div>
+                      <div class="small-2 medium-1 cell">
+                        <a href="#" class="icon icon-delete">
+                          <span class="show-for-sr">Delete</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /.list-item -->
+
+                  <li role="list-item" aria-level="2">
+                    <div class="grid-x">
+                      <div class="show-for-small-only small-12 cell category-text">
+                        categoria
+                      </div>
+                      <div class="hide-for-small-only medium-1 cell">
+                        <span class="icon icon-category"></span>
+                      </div>
+                      <div class="small-10 medium-9 cell">
+                        <p class="description">
+                          Tarifa <br>
+                          <span class="value">R$ -0,01</span>
+                        </p>
+                      </div>
+                      <div class="small-2 medium-1 cell">
+                        <a href="#" class="icon icon-delete">
+                          <span class="show-for-sr">Delete</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /.list-item -->
+
+                  <li role="list-item" aria-level="2">
+                    <div class="grid-x">
+                      <div class="show-for-small-only small-12 cell category-text">
+                        categoria
+                      </div>
+                      <div class="hide-for-small-only medium-1 cell">
+                        <span class="icon icon-category"></span>
+                      </div>
+                      <div class="small-10 medium-9 cell">
+                        <p class="description">
+                          Tarifa <br>
+                          <span class="value">R$ -0,01</span>
+                        </p>
+                      </div>
+                      <div class="small-2 medium-1 cell">
+                        <a href="#" class="icon icon-delete">
+                          <span class="show-for-sr">Delete</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /.list-item -->
+                </ul>
+
               </li>
-              <!-- /.list-item -->
+              <!-- /.item -->
 
-              <li role="list-item" aria-level="2">
-                <div class="grid-x grid-padding-x">
-                  <div class="show-for-small-only small-12 cell category-text">
-                    categoria
-                  </div>
-                  <div class="hide-for-small-only medium-1 cell">
-                    <span class="icon icon-category"></span>
-                  </div>
-                  <div class="small-10 medium-9 cell">
-                    <p class="description">
-                      Tarifa <br>
-                      <span class="value">R$ -0,01</span>
-                    </p>
-                  </div>
-                  <div class="small-2 medium-2 cell">
-                    <a href="#" class="icon icon-delete">
-                      <span class="show-for-sr">Delete</span>
-                    </a>
-                  </div>
-                </div>
+              <li class="item swiper-slide" role="list-item" aria-level="1">
+                <span class="icon icon-calendar"></span>
               </li>
-              <!-- /.list-item -->
-
-              <li role="list-item" aria-level="2">
-                <div class="grid-x grid-padding-x">
-                  <div class="show-for-small-only small-12 cell category-text">
-                    categoria
-                  </div>
-                  <div class="hide-for-small-only medium-1 cell">
-                    <span class="icon icon-category"></span>
-                  </div>
-                  <div class="small-10 medium-9 cell">
-                    <p class="description">
-                      Tarifa <br>
-                      <span class="value">R$ -0,01</span>
-                    </p>
-                  </div>
-                  <div class="small-2 medium-2 cell">
-                    <a href="#" class="icon icon-delete">
-                      <span class="show-for-sr">Delete</span>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <!-- /.list-item -->
-
-              <li role="list-item" aria-level="2">
-                <div class="grid-x grid-padding-x">
-                  <div class="show-for-small-only small-12 cell category-text">
-                    categoria
-                  </div>
-                  <div class="hide-for-small-only medium-1 cell">
-                    <span class="icon icon-category"></span>
-                  </div>
-                  <div class="small-10 medium-9 cell">
-                    <p class="description">
-                      Tarifa <br>
-                      <span class="value">R$ -0,01</span>
-                    </p>
-                  </div>
-                  <div class="small-2 medium-2 cell">
-                    <a href="#" class="icon icon-delete">
-                      <span class="show-for-sr">Delete</span>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <!-- /.list-item -->
-
-              <li role="list-item" aria-level="2">
-                <div class="grid-x grid-padding-x">
-                  <div class="show-for-small-only small-12 cell category-text">
-                    categoria
-                  </div>
-                  <div class="hide-for-small-only medium-1 cell">
-                    <span class="icon icon-category"></span>
-                  </div>
-                  <div class="small-10 medium-9 cell">
-                    <p class="description">
-                      Tarifa <br>
-                      <span class="value">R$ -0,01</span>
-                    </p>
-                  </div>
-                  <div class="small-2 medium-2 cell">
-                    <a href="#" class="icon icon-delete">
-                      <span class="show-for-sr">Delete</span>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <!-- /.list-item -->
-            </ul>
-
-          </li>
-          <!-- /.item -->
-
-          <li class="item" role="list-item" aria-level="1">
-            <span class="icon icon-calendar"></span>
-          </li>
-          <!-- /.item -->
+              <!-- /.item -->
+            </div>
+          </div>
         </ul>
         <p id="label-item-description" class="show-for-sr">
           Slider com múltiplos itens. Cada item ativo apresenta informações a respeito de créditos ou débitos na conta.
         </p>
 
-        <div class="slider-controls">
-          <div class="grid-x grid-margin-x">
-            <div class="small-4 medium-4 small-offset-4 medium-offset-5 cell">
-              <a href="#" class="slider-control" role="list-item">
-                <span id="slider-control-1" class="show-for-sr">Botão que chama o item anterior do Slider</span>
-              </a>
-              <a href="#" class="slider-control" role="list-item">
-                <span id="slider-control-2" class="show-for-sr">Botão o item do Slider que está ativo</span>
-              </a>
-              <a href="#" class="slider-control" role="list-item">
-                <span id="slider-control-3" class="show-for-sr">Botão que chama o próximo item do Slider</span>
-              </a>
-            </div>
-          </div>
+        <!-- Add Pagination -->
+        <div class="slider-controls swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/what-input/dist/what-input.js"></script>
-    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </footer>
+
+
+  <!-- Demo styles -->
+  <style>
+  
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+</style>
+
+<footer>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/what-input/dist/what-input.js"></script>
+  <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+  <script src="js/app.js"></script>
+  <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 0,
+      centeredSlides: true,
+      initialSlide: 1,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="slider-control swiper-pagination-bullet"></span>';
+        }
+      },
+    });
+  </script>
+</footer>
 </body>
 </html>
